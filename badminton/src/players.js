@@ -7,6 +7,7 @@ class Players extends Component {
         const settings = {
             arrows: false,
             autoplay: true,
+            autoplaySpeed: 5000,
             dot: true,
             infinite: true,
             speed: 700,
