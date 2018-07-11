@@ -40,7 +40,7 @@ class Players extends Component {
                         </div>
                     </div>
                     <div className="player">
-                        <h2> Lee Chong Wei </h2>
+                        <h2 className="player-name"> Lee Chong Wei </h2>
                         <div className="player-info">
                             <p> Birthday: October 21st, 1982 </p>
                             <p> Country: Malaysia </p>
@@ -56,7 +56,7 @@ class Players extends Component {
                         </div>
                     </div>
                     <div className="player">
-                        <h2> Srikanth Kidambi </h2>
+                        <h2 className="player-name"> Srikanth Kidambi </h2>
                         <div className="player-info">
                             <p> Birthday: February 7th, 1993 </p>
                             <p> Country: India </p>
@@ -72,7 +72,7 @@ class Players extends Component {
                         </div>
                     </div>
                     <div className="player">
-                        <h2> Lin Dan </h2>
+                        <h2 className="player-name"> Lin Dan </h2>
                         <div className="player-info">
                             <p> Birthday: October 14th, 1983 </p>
                             <p> Country: China </p>
@@ -92,7 +92,7 @@ class Players extends Component {
                         </div>
                     </div>
                     <div className="player">
-                        <h2> Viktor Axelsen </h2>
+                        <h2 className="player-name"> Viktor Axelsen </h2>
                         <div className="player-info">
                             <p> Birthday: January 4th, 1994 </p>
                             <p> Country: Denmark </p>
@@ -108,7 +108,7 @@ class Players extends Component {
                         </div>
                     </div>
                     <div className="player">
-                        <h2> Shi Yuqi </h2>
+                        <h2 className="player-name"> Shi Yuqi </h2>
                         <div className="player-info">
                             <p> Birthday: February 28th, 1996 </p>
                             <p> Country: China </p>
