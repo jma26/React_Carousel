@@ -1,0 +1,39 @@
+.player {
+    margin-top: 16px;
+    text-align: center;
+    color: #F7F8F8;
+}
+
+.player-name {
+    color: #0F9AB7;
+}
+
+.player-info, .player-intro {
+    background-color: #C18C7A;
+    border: 4px solid #C18C7A;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    text-align: left;
+}
+
+.player-info h3 {
+    display: inline-block;
+}
+
+.player-info p {
+    padding: 8px;
+}
+
+.player-intro {
+    background-color: #C18C7A;
+    border: 4px solid #C18C7A;
+    border-radius: 8px;
+    display: block;
+    line-height: 1.6;
+    margin: 16px;
+    margin: 0 auto;
+    padding: 16px;
+    width: 50vw;
+}
