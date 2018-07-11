@@ -4,27 +4,37 @@ import Slider from 'react-slick';
 
 class Players extends Component {
     render() {
+        const settings = {
+            arrows: false,
+            autoplay: true,
+            dot: true,
+            infinite: true,
+            speed: 700,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+
         return (
             <div className="player-container">
-                <Slider>
+                <Slider className="slider" {...settings}>
                     <div className="player">
-                        <h2> Kento Momota </h2>
+                        <h2 className="player-name"> Kento Momota </h2>
                         <div className="player-info">
-                            <p> Birthday: September 1st, 1994 </p>
-                            <p> Country: Japan </p>
-                            <p> Height: 1.75m (5 ft 9 in) </p>
-                            <p> Weight: 68kg (150 lb) </p>
-                            <p> Dominant hand: Left-hand </p>
-                            <p> Current ranking: 8 (5 July 2018) </p>
+                            <p> <h3>Birthday:</h3> September 1st, 1994 </p>
+                            <p> <h3>Country:</h3> Japan </p>
+                            <p> <h3>Height:</h3> 1.75m (5 ft 9 in) </p>
+                            <p> <h3>Weight:</h3> 68kg (150 lb) </p>
+                            <p> <h3>Dominant hand:</h3> Left-hand </p>
+                            <p> <h3>Current ranking:</h3> 8 (5 July 2018) </p>
                         </div>
                         <div className="player-intro">
                             Kento Momota (桃田 賢斗 Momota Kento, born 1 September 1994) is a badminton player from Japan. He is known for his explosive movements on court and his unpredictable style of play. 
                             
                             He won all his matches during Japan's maiden Thomas Cup victory in 2014, playing second men's singles behind Kenichi Tago. He was the first Japanese player to win the Singapore Open. By winning that title, he became the first Japanese player to successfully capture a Super Series in Men's Singles and currently holds the record as the youngest Super Series champion in that category.
                             
-                            In 2015 Sudirman Cup, he repeated his feat in Thomas Cup again to help Japan finish runner-up. He made history once more in the BWF World Championships 2015 held in Jakarta. It made him the first Japanese player to win a medal in Men's Singles category in that competition, after emerging as victor. In addition, he was the winner in the 2015 edition of BWF World Superseries Final in Dubai. He competed at the 2014 Asian Games in Incheon[1] as well as the 2016 Badminton Asia Team Championships in Hyderabad.
+                            In 2015 Sudirman Cup, he repeated his feat in Thomas Cup again to help Japan finish runner-up. He made history once more in the BWF World Championships 2015 held in Jakarta. It made him the first Japanese player to win a medal in Men's Singles category in that competition, after emerging as victor. In addition, he was the winner in the 2015 edition of BWF World Superseries Final in Dubai. He competed at the 2014 Asian Games in Incheon as well as the 2016 Badminton Asia Team Championships in Hyderabad.
 
-                            On April 7, 2016, Momota admitted visiting an illegal casino in Tokyo after casino staff reported him gambling there "frequently". In a board meeting, it was revealed that he gambled away 0.5 million yen during 6 visits to the casino with his teammate, Kenichi Tago, who spent 10 million yen after 60 visits to various casinos.[4][5] The Nippon Badminton Association secretary general Kinji Zeniya said it would “probably be impossible” for Momota to participate in the 2016 Rio Olympics, with frequent gambling being punishable by law with a prison sentence of up to 3 years.[6][7][8][9]
+                            On April 7, 2016, Momota admitted visiting an illegal casino in Tokyo after casino staff reported him gambling there "frequently". In a board meeting, it was revealed that he gambled away 0.5 million yen during 6 visits to the casino with his teammate, Kenichi Tago, who spent 10 million yen after 60 visits to various casinos. The Nippon Badminton Association secretary general Kinji Zeniya said it would “probably be impossible” for Momota to participate in the 2016 Rio Olympics, with frequent gambling being punishable by law with a prison sentence of up to 3 years.
                             
                             He came back from his suspension mid-year of 2017.
                         </div>
